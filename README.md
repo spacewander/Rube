@@ -101,6 +101,7 @@ claude mcp add --transport http rube -s user "https://rube.app/mcp"
 ## Using Rube
 
 1. **Connect apps** – Rube offers connectors for hundreds of SaaS apps. When you first invoke a command that touches a new app (e.g. “Send an email via Gmail”), Rube will prompt you to authenticate using OAuth or an API key. You can connect multiple apps at once and even share them with teammates.
+  
 2. **Issue plain‑English commands** – In your AI chat, describe what you want to do. For example:
 
   - “Send a welcome email to the latest sign‑up in Airtable.”
@@ -108,7 +109,9 @@ claude mcp add --transport http rube -s user "https://rube.app/mcp"
   - “Schedule a meeting for Monday at 10 AM and notify the participants on Slack.”
 
 Rube will interpret the intent, fetch or send data via the appropriate APIs and return results directly in the chat.
+
 3. **Chain multiple actions** – Rube can perform multi‑step workflows that cross apps. For instance, fetch data from Gmail, generate an issue in GitHub and post a Slack update about it.
+
 4. **Monitor & manage** – You can view connected apps and manage credentials through your Composio dashboard. Shared connections allow a team to reuse the same integration without re‑authenticating.
 
 ## Security & Privacy
