@@ -72,12 +72,15 @@ npx mcp-remote "https://rube.app/mcp"
 ```
 
 This installs the Rube MCP server into VS Code.
+
 2. Restart VS Code after the command completes. The configuration will add Rube to the list of MCP servers.
+
 3. Open VS Code settings (search for _Chat > MCP_) and ensure the following are enabled:
 
   - **Chat > MCP: Autostart** – automatically starts MCP servers for new chats.
   - **Chat > MCP: Discovery** – enables discovery of MCP servers on your machine.
   - **Chat > MCP: Enabled** – enables integration with MCP servers.
+
 4. Open a new chat (e.g. ChatGPT/Claude extension) and start issuing commands like “Create a Notion task” or “Send an email via Gmail”. Rube will handle the operations in the background.
 
 ### Claude Code (CLI + Chat)
@@ -89,9 +92,13 @@ claude mcp add --transport http rube -s user "https://rube.app/mcp"
 ```
 
 (You can copy this command directly from the installation modal.)
+
 2. Inside Claude Code chat, run the `/mcp` command to manage MCP servers.
+
 3. Select **rube** from the list and press **Enter** to log in. This will open a browser for authentication.
+
 4. In the Rube MCP server menu, select **Authenticate** and complete the sign‑in flow. The status will change from _needs authentication_ to _connected_.
+
 5. After authentication, return to Claude Code, run `/mcp` again, and confirm that `rube` is connected. You can now use Rube commands within Claude Code chat.
 
 ### Generic MCP Client
